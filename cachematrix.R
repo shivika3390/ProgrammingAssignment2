@@ -2,7 +2,7 @@
 ##Caching the inverse of a matrix provides some benefit.
 ##makeCacheMatrix and cacheSolve are two functions used to cache the inverse of a matrix.
 
-##The below function will create a special "matrix" object and that will be able to cache the inverse.
+##The below function will create a special "matrix" object and that will be able to cache the inverse of matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 	inv_m <- NULL
